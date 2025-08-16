@@ -108,3 +108,11 @@ streamlit run app70b.py
    ```
 
 請依照 client/ 內的 README 或說明設定伺服器端網址，即可透過網頁介面與遠端 LLM 互動。
+
+---
+
+# Demo 截圖
+
+系統完成後的畫面如下：
+
+![Demo Screenshot](./1755071502114.jpg)
