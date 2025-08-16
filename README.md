@@ -85,3 +85,26 @@ streamlit run app.py
 ```bash
 streamlit run app70b.py
 ```
+
+---
+
+# 無 GPU 用戶請參考
+
+如果您的電腦沒有適合的 GPU，也可以使用 `client/` 資料夾內的程式作為前端，連接遠端的 LLM 伺服器進行推論。
+
+請依下列步驟操作：
+
+1. 進入 client 目錄：
+   ```bash
+   cd client
+   ```
+2. 安裝所需套件（可用 conda 或 pip）：
+   ```bash
+   pip install -r ../requirements.txt
+   ```
+3. 啟動 client 前端：
+   ```bash
+   streamlit run app.py
+   ```
+
+請依照 client/ 內的 README 或說明設定伺服器端網址，即可透過網頁介面與遠端 LLM 互動。
